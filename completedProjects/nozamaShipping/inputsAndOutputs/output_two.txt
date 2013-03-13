@@ -1,0 +1,54 @@
+Order 1 for regular customer arrived at time 0
+fetch time 2 minutes, pack time 1 minutes
+elapsed time sim1 3 minutes, elapsed time sim2 3 minutes
+
+Order 2 for supreme customer arrived at time 1
+fetch time 2 minutes, pack time 5 minutes
+elapsed time sim1 8 minutes, elapsed time sim2 8 minutes
+
+Order 3 for regular customer arrived at time 5
+fetch time 3 minutes, pack time 1 minutes
+elapsed time sim1 4 minutes, elapsed time sim2 4 minutes
+
+Order 4 for supreme customer arrived at time 6
+fetch time 2 minutes, pack time 6 minutes
+elapsed time sim1 10 minutes, elapsed time sim2 10 minutes
+
+Order 6 for supreme customer arrived at time 15
+fetch time 4 minutes, pack time 2 minutes
+elapsed time sim1 6 minutes, elapsed time sim2 6 minutes
+
+Order 5 for regular customer arrived at time 10
+fetch time 5 minutes, pack time 8 minutes
+elapsed time sim1 13 minutes, elapsed time sim2 13 minutes
+
+Order 8 for supreme customer arrived at time 22
+fetch time 1 minutes, pack time 3 minutes
+elapsed time sim1 5 minutes, elapsed time sim2 5 minutes
+
+Order 7 for regular customer arrived at time 17
+fetch time 4 minutes, pack time 5 minutes
+elapsed time sim1 11 minutes, elapsed time sim2 11 minutes
+
+Order 9 for regular customer arrived at time 23
+fetch time 4 minutes, pack time 5 minutes
+elapsed time sim1 10 minutes, elapsed time sim2 10 minutes
+
+Order 10 for supreme customer arrived at time 24
+fetch time 5 minutes, pack time 1 minutes
+elapsed time sim1 10 minutes, elapsed time sim2 10 minutes
+
+
+sim1 min elapsed time 3 minutes
+sim1 max elapsed time 13 minutes
+sim1 mean elapsed time 8 minutes
+10 orders processed
+
+
+sim2 min elapsed time 3 minutes
+sim2 max elapsed time 13 minutes
+sim2 mean elapsed time for all customers 8 minutes
+sim2 mean elapsed time for supreme customers 7 minutes
+sim2 mean elapsed time for regular customers 8 minutes
+10 orders processed
+

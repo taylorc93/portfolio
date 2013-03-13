@@ -1,0 +1,30 @@
+Order 1 for regular customer arrived at time 0
+fetch time 6 minutes, pack time 3 minutes
+
+Order 2 for supreme customer arrived at time 3
+fetch time 8 minutes, pack time 3 minutes
+
+Order 3 for regular customer arrived at time 11
+fetch time 9 minutes, pack time 2 minutes
+
+Order 4 for supreme customer arrived at time 18
+fetch time 5 minutes, pack time 5 minutes
+
+Order 5 for regular customer arrived at time 28
+fetch time 1 minutes, pack time 5 minutes
+
+Order 6 for supreme customer arrived at time 30
+fetch time 3 minutes, pack time 1 minutes
+
+Order 7 for regular customer arrived at time 35
+fetch time 3 minutes, pack time 5 minutes
+
+Order 8 for supreme customer arrived at time 43
+fetch time 4 minutes, pack time 5 minutes
+
+Order 9 for regular customer arrived at time 48
+fetch time 1 minutes, pack time 4 minutes
+
+Order 10 for supreme customer arrived at time 58
+fetch time 3 minutes, pack time 5 minutes
+
