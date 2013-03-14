@@ -22,13 +22,11 @@ void sim2(Manager unit);
 
 //Creates the manager object, reads in the data, then runs the simulations
 int main(){
-
 	Manager command;
 	command.readInFile();
 
 	sim1(command);
 	sim2(command);
-
 }
 
 /* Name: sim1
@@ -42,8 +40,7 @@ int main(){
 void sim1(Manager command){
 	for (int t = 0; true; t++){
 		if (command.retriever.isDone()){
-            command.shipping.receiveOrder(command.retriever.toPackaging(), 
-										  true);
+            	command.shipping.receiveOrder(command.retriever.toPackaging(), true);
         }
 		for (int i = 0; i < NUM_PACKERS; i++){
 			if (command.shipping.isDone(i)){
@@ -53,12 +50,11 @@ void sim1(Manager command){
         if (command.allDone()){
             break;
         }
-
-		while (command.arrival(t)){
-			command.retriever.receiveOrder(command.release());
-		}
+	while (command.arrival(t)){
+		command.retriever.receiveOrder(command.release());
+	}
         command.retriever.incrementTime(t, true);
-		command.shipping.incrementTime(t, true);
+	command.shipping.incrementTime(t, true);
 	}
 	command.sortOrders();
 }
@@ -74,8 +70,7 @@ void sim1(Manager command){
 void sim2(Manager command){
     for (int t = 0; true; t++){
         if (command.retriever.isDone()){
-            command.shipping.receiveOrder(command.retriever.toPackaging(),
-                                          false);
+            command.shipping.receiveOrder(command.retriever.toPackaging(), false);
         }
         for (int i = 0; i < NUM_PACKERS; i++){
             if (command.shipping.isDone(i)){
