@@ -1,1 +1,1 @@
-This is the location of all my personal projects listed on my resume.
+This is the location of all my projects, including those listed on my resume.
