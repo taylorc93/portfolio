@@ -43,7 +43,7 @@ function renderRedLine(){
 			marker = this;
 			key    = correspondingKeys[this["title"]]
 			scheduleRequest.onreadystatechange = getSchedule;	
-			scheduleRequest.open("GET", "http://mbtamap-cedar.herokuapp.com/mapper/redline.json ",
+			scheduleRequest.open("GET", "http://mbtamap.herokuapp.com/mapper/redline.json ",
 						 		true);
 			scheduleRequest.send(null);
 			
